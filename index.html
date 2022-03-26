@@ -20,7 +20,7 @@
     <meta property="og:url" content="https://wevpn.com/" />
     <meta property="og:site_name" content="WeVPN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <!-- <script type="application/ld+json" class="yoast-schema-graph">
+    <script type="application/ld+json" class="yoast-schema-graph">
       {
         "@context": "https://schema.org",
         "@graph": [
@@ -29,7 +29,7 @@
           { "@type": "BreadcrumbList", "@id": "https://wevpn.com/#breadcrumb", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home" }] }
         ]
       }
-    </script> -->
+    </script>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicons/apple-touch-icon.webp" />
@@ -39,25 +39,22 @@
     <link rel="mask-icon" href="imgs/favicons/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
-    <link rel="preload" href="https://cloudfront.wevpn.com/assets/fonts/Averta-Regular/Averta-Regular.woff" as="font" crossorigin="anonymous" />
-    <link rel="preload" href="https://cloudfront.wevpn.com/assets/fonts/Averta-Bold/Averta-Bold.woff" as="font" crossorigin="anonymous" />
-    <link rel="preload" href="https://cloudfront.wevpn.com/assets/fonts/Averta-Semibold/Averta-Semibold.woff" as="font" crossorigin="anonymous" />
     <!-- custom style css -->
     <link rel="stylesheet" href="css/homepage.css" />
     <!-- Lazysizes -->
     <script async src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js"></script>
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161223577-1"></script> -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161223577-1"></script>
 
-    <!-- <script>
+    <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
       gtag("config", "UA-161223577-1");
-    </script> -->
+    </script>
     <!-- Google Tag Manager -->
-    <!-- <script>
+    <script>
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
@@ -68,14 +65,14 @@
         j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
         f.parentNode.insertBefore(j, f);
       })(window, document, "script", "dataLayer", "GTM-KHBL4C2");
-    </script> -->
+    </script>
     <!-- End Google Tag Manager -->
-    <!-- <meta name="msvalidate.01" content="7F3FABD8CD3E5E8C7E4BF8E5FA6C1987" /> -->
+    <meta name="msvalidate.01" content="7F3FABD8CD3E5E8C7E4BF8E5FA6C1987" />
   </head>
 
   <body>
     <!-- Google Tag Manager (noscript) -->
-    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHBL4C2" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript> -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHBL4C2" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Start Header -->
@@ -565,26 +562,26 @@
               <ul class="dropdown--menu in-mobile">
                 <li>
                   <a class="dropdown-item" href="#">
-                    <img width="21" height="21" data-src="imgs/header/uk.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="lazyload icon" alt="english" />
+                    <span class="country-flag lazyload bg-uk"></span>
                     <span>English</span>
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    <img width="21" height="21" data-src="imgs/header/fr.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="lazyload icon" alt="french" />
+                    <span class="country-flag lazyload bg-fr"></span>
                     <span>Français</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <span class="country-flag lazyload bg-gr"></span>
+                    <span>Deutsch</span>
                   </a>
                 </li>
 
                 <li>
                   <a class="dropdown-item" href="#">
-                    <img width="21" height="21" data-src="imgs/header/gr.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="lazyload icon" alt="germany" />
-                    <span>Deutsch</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    <img width="21" height="21" data-src="imgs/header/sp.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="lazyload icon" alt="spain" />
+                    <span class="country-flag lazyload bg-sp"></span>
                     <span>Español</span>
                   </a>
                 </li>
@@ -1146,197 +1143,230 @@
             <div class="col-lg-7 padd_xs_0">
               <div class="left_col">
                 <div class="servers_countries lazyload d-flex flex-wrap">
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-argentina"></div>
-                    <p>Argentina</p>
+                  <div class="server-countries-row d-flex flex-wrap">
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-argentina"></div>
+                      <p>Argentina</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-australia"></div>
+                      <p>Australia</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-austria"></div>
+                      <p>Austria</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-belgium"></div>
+                      <p>Belgium</p>
+                    </div>
                   </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-australia"></div>
-                    <p>Australia</p>
+                  <div class="server-countries-row d-flex flex-wrap">
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-brazil"></div>
+                      <p>Brazil</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-bulgaria"></div>
+                      <p>Bulgaria</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-canada"></div>
+                      <p>Canada</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-czech_republic"></div>
+                      <p>Czech Republic</p>
+                    </div>
                   </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-austria"></div>
-                    <p>Austria</p>
+                  <div class="server-countries-row d-flex flex-wrap">
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-denmark"></div>
+                      <p>Denmark</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-egypt"></div>
+                      <p>Egypt</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-finland"></div>
+                      <p>Finland</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-france"></div>
+                      <p>France</p>
+                    </div>
                   </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-belgium"></div>
-                    <p>Belgium</p>
+
+                  <div class="server-countries-row d-flex flex-wrap">
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-germany"></div>
+                      <p>Germany</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-greece"></div>
+                      <p>Greece</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-hongkong"></div>
+                      <p>Hong kong</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-hungary"></div>
+                      <p>Hungary</p>
+                    </div>
                   </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-brazil"></div>
-                    <p>Brazil</p>
+
+                  <div class="server-countries-row d-flex flex-wrap">
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-india"></div>
+                      <p>India</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-indonesia"></div>
+                      <p>Indonesia</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-ireland"></div>
+                      <p>Ireland</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-israeel"></div>
+                      <p>Israel</p>
+                    </div>
                   </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-bulgaria"></div>
-                    <p>Bulgaria</p>
+
+                  <div class="server-countries-row d-flex flex-wrap">
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-italy"></div>
+                      <p>Italy</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-japan"></div>
+                      <p>Japan</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-luxembourg"></div>
+                      <p>Luxembourg</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-malaysia"></div>
+                      <p>Malaysia</p>
+                    </div>
                   </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-canada"></div>
-                    <p>Canada</p>
+
+                  <div class="server-countries-row d-flex flex-wrap">
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-mexico"></div>
+                      <p>Mexico</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-netherlands"></div>
+                      <p>Netherland</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-new_zealand"></div>
+                      <p>New Zealand</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-nigeria"></div>
+                      <p>Nigeria</p>
+                    </div>
                   </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-czech_republic"></div>
-                    <p>Czech Republic</p>
+
+                  <div class="server-countries-row d-flex flex-wrap">
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-norway"></div>
+                      <p>Norway</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-philippines"></div>
+                      <p>Philippines</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-poland"></div>
+                      <p>Poland</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-portugal"></div>
+                      <p>Portugal</p>
+                    </div>
                   </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-denmark"></div>
-                    <p>Denmark</p>
+
+                  <div class="server-countries-row d-flex flex-wrap">
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-romania"></div>
+                      <p>Romania</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-russia"></div>
+                      <p>Russia</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-serbia"></div>
+                      <p>Serbia</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-singapore"></div>
+                      <p>Singapore</p>
+                    </div>
                   </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-egypt"></div>
-                    <p>Egypt</p>
+
+                  <div class="server-countries-row d-flex flex-wrap">
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-south_africa"></div>
+                      <p>South Africa</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-south_korea"></div>
+                      <p>South Korea</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-spain"></div>
+                      <p>Spain</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-sweden"></div>
+                      <p>Sweden</p>
+                    </div>
                   </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-finland"></div>
-                    <p>Finland</p>
+
+                  <div class="server-countries-row d-flex flex-wrap">
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-switzerland"></div>
+                      <p>Switzerland</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-taiwan"></div>
+                      <p>Taiwan</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-turkey"></div>
+                      <p>Turkey</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-uae"></div>
+                      <p>UAE</p>
+                    </div>
                   </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-france"></div>
-                    <p>France</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-germany"></div>
-                    <p>Germany</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-greece"></div>
-                    <p>Greece</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-hongkong"></div>
-                    <p>Hong kong</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-hungary"></div>
-                    <p>Hungary</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-india"></div>
-                    <p>India</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-indonesia"></div>
-                    <p>Indonesia</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-ireland"></div>
-                    <p>Ireland</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-israeel"></div>
-                    <p>Israel</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-italy"></div>
-                    <p>Italy</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-japan"></div>
-                    <p>Japan</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-luxembourg"></div>
-                    <p>Luxembourg</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-malaysia"></div>
-                    <p>Malaysia</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-mexico"></div>
-                    <p>Mexico</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-netherlands"></div>
-                    <p>Netherland</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-new_zealand"></div>
-                    <p>New Zealand</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-nigeria"></div>
-                    <p>Nigeria</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-norway"></div>
-                    <p>Norway</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-philippines"></div>
-                    <p>Philippines</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-poland"></div>
-                    <p>Poland</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-portugal"></div>
-                    <p>Portugal</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-romania"></div>
-                    <p>Romania</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-russia"></div>
-                    <p>Russia</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-serbia"></div>
-                    <p>Serbia</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-singapore"></div>
-                    <p>Singapore</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-south_africa"></div>
-                    <p>South Africa</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-south_korea"></div>
-                    <p>South Korea</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-spain"></div>
-                    <p>Spain</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-sweden"></div>
-                    <p>Sweden</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-switzerland"></div>
-                    <p>Switzerland</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-taiwan"></div>
-                    <p>Taiwan</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-turkey"></div>
-                    <p>Turkey</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-uae"></div>
-                    <p>UAE</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-uk"></div>
-                    <p>UK</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-ukraine"></div>
-                    <p>Ukraine</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-usa"></div>
-                    <p>USA</p>
-                  </div>
-                  <div class="country d-flex align-items-center">
-                    <div class="lazyload flag bg-vietnam"></div>
-                    <p>Vietnam</p>
+
+                  <div class="server-countries-row d-flex flex-wrap">
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-uk"></div>
+                      <p>UK</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-ukraine"></div>
+                      <p>Ukraine</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-usa"></div>
+                      <p>USA</p>
+                    </div>
+                    <div class="country d-flex align-items-center">
+                      <div class="lazyload flag bg-vietnam"></div>
+                      <p>Vietnam</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1940,6 +1970,32 @@
       </div>
     </footer>
     <!-- End Footer -->
+
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/smart-app-banner.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+      new SmartBanner({
+        daysHidden: 15,
+        daysReminder: 90,
+        appStoreLanguage: "us",
+        title: "WeVPN",
+        author: "wevpn.com",
+        button: "View",
+        store: {
+          ios: "On the App Store",
+          android: "In Google Play",
+          windows: "In Windows store"
+        },
+        price: {
+          ios: "$2.59/mo",
+          android: "$2.59/mo",
+          windows: "$2.59/mo"
+        }
+      });
+    </script>
   </body>
 </html>
