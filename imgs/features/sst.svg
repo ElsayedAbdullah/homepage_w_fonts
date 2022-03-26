@@ -1,0 +1,27 @@
+<svg width="80" height="96" viewBox="0 0 80 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="10.3516" y="18.0522" width="59.2106" height="65.4686" fill="#E42C60"/>
+<rect width="80" height="28.8889" rx="3" fill="url(#paint0_linear)"/>
+<circle cx="14.3795" cy="14.3204" r="4.93422" fill="white"/>
+<rect x="58.9688" y="13.2383" width="12.2754" height="2.40693" fill="white"/>
+<rect y="66.667" width="80" height="28.8889" rx="3" fill="#FD3E72"/>
+<circle cx="13.1178" cy="81.234" r="4.93422" fill="white"/>
+<rect x="30.5664" y="80.1504" width="40.6772" height="2.40693" fill="white"/>
+<rect y="33.333" width="80" height="28.8889" rx="3" fill="#FFCEDB"/>
+<rect x="66.4336" y="38.5107" width="4.81387" height="2.40693" fill="white"/>
+<rect x="57.0469" y="38.5107" width="4.81387" height="2.40693" fill="white"/>
+<rect x="47.6641" y="38.5107" width="4.81387" height="2.40693" fill="white"/>
+<rect x="38.2734" y="38.5117" width="4.81387" height="2.40693" fill="white"/>
+<path d="M0 3C0 1.34314 1.34315 0 3 0H5.55556V28.8889H3C1.34314 28.8889 0 27.5457 0 25.8889V3Z" fill="black" fill-opacity="0.03"/>
+<path d="M80 3C80 1.34314 78.6569 0 77 0H74.4444V28.8889H77C78.6569 28.8889 80 27.5457 80 25.8889V3Z" fill="black" fill-opacity="0.1"/>
+<path d="M80 36.333C80 34.6762 78.6569 33.333 77 33.333H74.4444V62.2219H77C78.6569 62.2219 80 60.8788 80 59.2219V36.333Z" fill="#FFB9CC"/>
+<path d="M80 69.667C80 68.0101 78.6569 66.667 77 66.667H74.4444V95.5559H77C78.6569 95.5559 80 94.2127 80 92.5559V69.667Z" fill="#F12F64"/>
+<path d="M0 36.333C0 34.6762 1.34315 33.333 3 33.333H5.55556V62.2219H3C1.34314 62.2219 0 60.8788 0 59.2219V36.333Z" fill="#FFE2EA"/>
+<path d="M0 69.667C0 68.0101 1.34315 66.667 3 66.667H5.55556V95.5559H3C1.34314 95.5559 0 94.2127 0 92.5559V69.667Z" fill="#FF6690"/>
+<defs>
+<linearGradient id="paint0_linear" x1="-4" y1="-5" x2="70.4048" y2="95.2933" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FE6556"/>
+<stop offset="0.354167" stop-color="#FD3E72"/>
+<stop offset="1" stop-color="#49A8FF"/>
+</linearGradient>
+</defs>
+</svg>
